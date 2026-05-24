@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number</title>
+</head>
+<body>
+
+    <main class="app-card">
+        <header class="app-header">
+            <span class="badge">Mini Game</span>
+            <h1>Guess the Number</h1>
+            <p>I've picked a secret number between 1 and 10. Can you crack it?</p>
+        </header>
+        
+        <div class="game-core">
+            <div class="input-wrapper">
+                <input type="text" id="myText" placeholder="Type your guess..." autocomplete="off">
+            </div>
+            <button id="mySubmit">Submit Guess</button>
+        </div>
+
+        <div class="feedback-area">
+            <p id="resultElement"></p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
