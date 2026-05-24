@@ -1,25 +1,3 @@
-// Hanya Menggunakan window.prompt
-
-// const angkaRahasia = Math.floor(Math.random() * 10) + 1;
-
-// let tebakanAngka = window.prompt("Masukkan angka antara 1 sampai 10");
-// tebakanAngka = Number(tebakanAngka);
-
-// if (isNaN(tebakanAngka)) {
-//     window.alert("Masukkan angka yang valid antara 1 sampai 10!");
-// }
-// else if (tebakanAngka > angkaRahasia) {
-//     window.alert("Terlalu tinggi! Coba angka yang lebih kecil.");
-// }
-// else if (tebakanAngka < angkaRahasia) {
-//     window.alert("Terlalu rendah! Coba angka yang lebih besar.");
-// }
-// else {
-//     window.alert(`Selamat tebakanmu benar!`);
-// }
-
-// Menggunakan HTML
-
 const myText = document.getElementById("myText");
 const mySubmit = document.getElementById("mySubmit");
 const resultElement = document.getElementById("resultElement");
