@@ -25,7 +25,6 @@ body {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
-/* Header Section */
 .app-header {
     text-align: center;
     margin-bottom: 28px;
@@ -91,7 +90,6 @@ p {
     color: #7a5c8c;
 }
 
-/* Primary Button */
 #mySubmit {
     background-color: #ec4899; 
     color: #ffffff;
@@ -112,7 +110,6 @@ p {
     transform: scale(0.98);
 }
 
-/* Dynamic Feedback Output */
 .feedback-area {
     margin-top: 24px;
     min-height: 24px;
